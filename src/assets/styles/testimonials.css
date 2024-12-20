@@ -1,0 +1,45 @@
+.testimonials{
+    background-color: hsl(210, 4%, 67%);
+}
+
+.testimonials-ctr {
+    display: flex;
+    padding-top: 4rem;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+}
+
+h1{
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 1rem;
+    padding-top: 3rem;
+    color: hsl(232, 10%, 55%);
+}
+
+.testimonial {
+    text-align: center;
+}
+
+.testimonial img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.testimonial p {
+    font-family: "Barlow";
+    padding-top: 2rem;
+    color: hsl(213, 9%, 39%);
+}
+
+.testimonial h2 {
+    font-family: "Fraunces";
+    padding-top: 2rem;
+    color: hsl(212, 27%, 19%);
+}
+
+.client-position {
+    padding-bottom: 2rem;
+    padding-top: 0;
+}

@@ -1,0 +1,9 @@
+.carousel-ctr {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.carousel-ctr img{
+    width: 25%;
+    height: auto;
+}

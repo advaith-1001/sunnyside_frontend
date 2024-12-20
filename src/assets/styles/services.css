@@ -1,0 +1,163 @@
+.services-ctr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px 600px 600px;
+}
+
+.service1-img {
+    height: 550px;
+}
+
+.service1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: hsl(0, 0%, 96%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: hsl(0, 0%, 96%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service3 {
+    grid-row-start:3 ;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: url("C:\Users\advai\Desktop\projects\sunnyside_frontend\sunnyside-agency-landing-page-main\sunnyside-agency-landing-page-main\images\desktop\image-graphic-design.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.service3 h2 {
+    font-family: "Fraunces";
+    color: hsl(103, 93%, 6%);
+    margin-top: 6rem;
+    padding-top: 20rem;
+}
+
+.service3 p {
+    font-family: "Fraunces";
+    padding: 5rem;
+    color: hsl(121, 48%, 28%);
+}
+
+.service4 {
+    grid-row-start:3 ;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-image: url("C:\Users\advai\Desktop\projects\sunnyside_frontend\sunnyside-agency-landing-page-main\sunnyside-agency-landing-page-main\images\desktop\image-photography.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.service4 h2 {
+    font-family: "Fraunces";
+    color: hsl(253, 85%, 5%);
+    margin-top: 6rem;
+    padding-top: 20rem;
+}
+
+.service4 p {
+    font-family: "Fraunces";
+    padding: 5rem;
+    color: hsl(241, 31%, 33%);
+}
+
+.service1-text {
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    text-align: center;
+    color: rgb(64, 86, 65);
+}
+
+.service2-text {
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.service1-header {
+    font-family: "Fraunces";
+    color: hsl(208, 28%, 10%);
+}
+
+.service2-header {
+    font-family: "Fraunces";
+    color: hsl(208, 28%, 10%);
+}
+
+.service1-desc {
+    font-family: "Fraunces";
+    color: hsl(210, 4%, 67%);
+}
+
+.service2-desc {
+    font-family: "Fraunces";
+    color: hsl(210, 4%, 67%);
+}
+
+.service-learn-more1 {
+    font-weight: bolder;
+    color: hsl(212, 27%, 19%);
+    font-family: "Fraunces";
+    display: inline;
+    text-decoration: underline; /* Default underline */
+    text-decoration-color: rgb(234, 234, 17); /* Customize the color */
+    text-decoration-thickness: 5px; /* Customize thickness (modern browsers) */
+    text-underline-offset: 3px;
+}
+
+.service-learn-more2 {
+    font-weight: bolder;
+    color: hsl(212, 27%, 19%);
+    font-family: "Fraunces";
+    display: inline;
+    text-decoration: underline; /* Default underline */
+    text-decoration-color: rgb(255, 0, 115); /* Customize the color */
+    text-decoration-thickness: 5px; /* Customize thickness (modern browsers) */
+    text-underline-offset: 3px;
+}
+
+.img1-ctr {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    overflow: hidden;
+}
+
+.img2-ctr {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    overflow: hidden;
+}
+
+.img1 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img2 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

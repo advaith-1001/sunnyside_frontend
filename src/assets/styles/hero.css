@@ -1,0 +1,22 @@
+.hero-ctr {
+    margin: 0;
+    height: 100vh;
+    background-image: url('C:\Users\advai\Desktop\projects\sunnyside_frontend\sunnyside-agency-landing-page-main\sunnyside-agency-landing-page-main\images\desktop\image-header.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.hero-header{
+    font-family: "Fraunces";
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 4rem;
+    color: white
+}
+
+.arrow-down {
+    display: block;
+    margin: 0 auto; 
+    padding-top: 2rem;
+}
