@@ -36,6 +36,10 @@
     grid-column-start: 1;
     grid-column-end: 2;
     background-image: url("C:\Users\advai\Desktop\projects\sunnyside_frontend\sunnyside-agency-landing-page-main\sunnyside-agency-landing-page-main\images\desktop\image-graphic-design.jpg");
+    background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Keeps the image centered */
+  background-repeat: no-repeat;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,6 +65,9 @@
     grid-column-start: 2;
     grid-column-end: 3;
     background-image: url("C:\Users\advai\Desktop\projects\sunnyside_frontend\sunnyside-agency-landing-page-main\sunnyside-agency-landing-page-main\images\desktop\image-photography.jpg");
+    background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Keeps the image centered */
+  background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -160,4 +167,11 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+@media(max-width : 768px) {
+    .services-ctr {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
